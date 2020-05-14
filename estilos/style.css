@@ -7,10 +7,47 @@ body {
     background-color: rgb(204, 157, 248);
 }
 
+p {
+    text-align: justify;
+}
+
+abbr {
+    text-decoration: none;
+}
+
 main {
     background-color: white;
-    width: 500px;
+    width: 560px;
     margin: auto;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.425);
     padding: 10px;
 }
+
+h1, h2 {
+    color: rgb(58, 0, 112);
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+img.lado {
+    float: right;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(58, 0, 112);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(26, 26, 255);
+}
+
